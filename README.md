@@ -26,5 +26,5 @@ $ ssh root@<host-ip-address> to connect from terminal
 
 URLs:
 
-Run Multiple Site from one IP with reverse proxy Nginx:  https://www.youtube.com/watch?v=x1fnOJsX6wE. j38DS7x9smN54Tp   209.145.57.
+Run Multiple Site from one IP with reverse proxy Nginx:  https://www.youtube.com/watch?v=x1fnOJsX6wE. j38DS7x9smN54Tp   209.145.57. 
 Node app deploy with nginx & SSL:  https://gist.github.com/bradtraversy/cd90d1ed3c462fe3bddd11bf8953a896 
