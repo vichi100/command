@@ -13,7 +13,7 @@ $ pm2 logs (Show log stream)
 $ pm2 flush (Clear logs)
 
 # To make sure app starts when reboot
-pm2 startup ubuntu
+pm2 startup ubuntu / centos
 
 $ npm start
 $ expo start
