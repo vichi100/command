@@ -1,5 +1,7 @@
 # command
 
+bash-3.2$ ssh 209.145.57.26@root
+
 $ netstat -ltnp
 $ netstat -ltnp | grep -w ':80'
 $ sudo service nginx start
