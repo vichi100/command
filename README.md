@@ -4,6 +4,7 @@ bash-3.2$ ssh 209.145.57.26@root
 
 $ netstat -ltnp
 $ netstat -ltnp | grep -w ':80'
+$ sudo service nginx stop
 $ sudo service nginx start
 $ sudo nginx -t
 $ pm2 start app.js
@@ -11,6 +12,7 @@ $ pm2 show app
 $ pm2 status
 $ pm2 restart app
 $ pm2 stop app
+$ pm2 stop all
 $ pm2 logs (Show log stream)
 $ pm2 flush (Clear logs)
 
