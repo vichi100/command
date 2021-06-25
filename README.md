@@ -36,3 +36,10 @@ Run Multiple Site from one IP with reverse proxy Nginx:  https://www.youtube.com
 Node app deploy with nginx & SSL:  https://gist.github.com/bradtraversy/cd90d1ed3c462fe3bddd11bf8953a896 
   
 Run multiple nodejs app in same server with different domain and run all app concurrently:    https://gist.github.com/hasibdesk/f508d7e1a101109a2e1c3e23c058c33b
+  
+  
+Redirect users to iTunes app store or google play store:
+  
+  https://stackoverflow.com/questions/35430336/redirect-users-to-itunes-app-store-or-google-play-store
+  
+  https://www.onelink.to/
