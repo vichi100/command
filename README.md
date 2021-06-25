@@ -7,6 +7,7 @@ $ netstat -ltnp | grep -w ':80'
 $ sudo service nginx stop
 $ sudo service nginx start
 $ sudo nginx -t
+
 $ pm2 start app.js
 $ pm2 show app
 $ pm2 status
@@ -19,8 +20,9 @@ $ pm2 flush (Clear logs)
 # To make sure app starts when reboot
 pm2 startup ubuntu / centos
 
-$ npm start
-$ expo start
+$ npm start // to start node js app
+$ expo start  // to start expo project
+
 $ grap vichi <file-name> | grep rajan
 $ zgrap vichi <file-name> | grep rajan
 $ ssh root@<host-ip-address> to connect from terminal
