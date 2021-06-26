@@ -44,3 +44,9 @@ Redirect users to iTunes app store or google play store:
   https://stackoverflow.com/questions/35430336/redirect-users-to-itunes-app-store-or-google-play-store
   
   https://www.onelink.to/
+  
+  
+ TMDB
+  https://www.themoviedb.org/documentation/api/wrappers-libraries
+  
+  https://rapidapi.com/movie-of-the-night-movie-of-the-night-default/api/streaming-availability
