@@ -56,4 +56,6 @@ Redirect users to iTunes app store or google play store:
   
   https://rapidapi.com/movie-of-the-night-movie-of-the-night-default/api/streaming-availability
   
+  # mongo
   adminvichi vichi123
+  flicksick_india -> flicksick, flicksick123
