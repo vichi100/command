@@ -33,6 +33,8 @@ $ ssh root@<host-ip-address> to connect from terminal
 
 # install node js
   https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-centos-8
+  
+ 
   npm install --global yarn
   
 # install mongodb
@@ -64,3 +66,33 @@ Redirect users to iTunes app store or google play store:
   adminvichi vichi123
   flicksick_india -> flicksick, flicksick123
   mongo -u flicksick -p flicksick123 --authenticationDatabase flicksick_india
+  
+  
+  
+  
+  
+  
+  # process.json
+  {
+  "apps": [
+    {
+      "name": "FLICK SICK API SERVER",
+      "cwd": "./flicksick_app_server", // this is directory url of your app
+      "script": "npm start",
+      "env": {
+        "NODE_ENV": "production"
+      }
+	},
+	{
+      "name": "FLICK SICK WEB SERVER",
+      "cwd": "./flicksick_web_server", // this is directory url of your app
+      "script": "npm start",
+      "env": {
+        "NODE_ENV": "production"
+      }
+    },
+    
+  ]
+}
+  
+  
