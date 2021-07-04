@@ -54,3 +54,5 @@ Redirect users to iTunes app store or google play store:
   https://www.themoviedb.org/documentation/api/wrappers-libraries
   
   https://rapidapi.com/movie-of-the-night-movie-of-the-night-default/api/streaming-availability
+  
+  adminvichi vichi123
