@@ -28,7 +28,8 @@ $ zgrap vichi <file-name> | grep rajan
 $ ssh root@<host-ip-address> to connect from terminal
 
 
-
+# install node js
+  https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-centos-8
 
 URLs:
 
