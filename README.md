@@ -17,6 +17,9 @@ $ pm2 stop all
 $ pm2 logs (Show log stream)
 $ pm2 flush (Clear logs)
 
+# To start react js web app
+$ pm2 start npm -- start
+
 # To make sure app starts when reboot
 pm2 startup ubuntu / centos
 
