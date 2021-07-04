@@ -96,3 +96,19 @@ Redirect users to iTunes app store or google play store:
 }
   
   
+# ngix config
+	
+	sudo nano /etc/nginx/conf.d/flicksick.com.conf
+
+	server {
+    server_name flicksickserver.com www.flicksickserver.com;
+
+    location / {
+        proxy_pass http://localhost:3050; #whatever port your app runs on
+        proxy_http_version 1.1;
+        proxy_set_header Upgrade $http_upgrade;
+        proxy_set_header Connection 'upgrade';
+        proxy_set_header Host $host;
+        proxy_cache_bypass $http_upgrade;
+    }
+}
