@@ -33,6 +33,7 @@ $ ssh root@<host-ip-address> to connect from terminal
   
 # install mongodb
   https://www.digitalocean.com/community/tutorials/how-to-install-mongodb-on-centos-8
+  https://matteocontrini.medium.com/how-to-setup-auth-in-mongodb-3-0-properly-86b60aeef7e8
 
 URLs:
 
