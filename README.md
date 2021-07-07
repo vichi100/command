@@ -1,6 +1,6 @@
 # command
 
-bash-3.2$ ssh 209.145.57.26@root
+bash-3.2$ ssh root@209.145.57.26
 
 $ netstat -ltnp
 $ netstat -ltnp | grep -w ':80'
@@ -16,6 +16,7 @@ $ pm2 stop app
 $ pm2 stop all
 $ pm2 logs (Show log stream)
 $ pm2 flush (Clear logs)
+$ pm2 monit
 
 # To start react js web app
 $ pm2 start npm -- start
