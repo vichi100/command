@@ -2,6 +2,11 @@
 
 bash-3.2$ ssh root@209.145.57.26
 
+# node js / expo / yarn  env setup
+
+$ sudo npm install --global expo-cli
+$ npm install --global yarn
+
 $ netstat -ltnp
 $ netstat -ltnp | grep -w ':80'
 $ sudo service nginx stop
