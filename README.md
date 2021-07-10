@@ -2,10 +2,12 @@
 
 bash-3.2$ ssh root@209.145.57.26
 
-# node js / expo / yarn  env setup
+# node js / expo / yarn  env setup on mac
 
 $ sudo npm install --global expo-cli
 $ npm install --global yarn
+
+# Utility commands
 
 $ netstat -ltnp
 $ netstat -ltnp | grep -w ':80'
