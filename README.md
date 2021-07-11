@@ -86,7 +86,9 @@ Redirect users to iTunes app store or google play store:
 	use <db name>
 	show collections
   
-  
+# Python
+	
+	run python file: python3 stream.py
   
   # process.json
   {
