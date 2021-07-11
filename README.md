@@ -71,9 +71,14 @@ Redirect users to iTunes app store or google play store:
   https://rapidapi.com/movie-of-the-night-movie-of-the-night-default/api/streaming-availability
   
   # mongo
-  adminvichi vichi123
-  flicksick_india -> flicksick, flicksick123
-  mongo -u flicksick -p flicksick123 --authenticationDatabase flicksick_india
+	adminvichi vichi123
+	flicksick_india -> flicksick, flicksick123
+	mongo -u flicksick -p flicksick123 --authenticationDatabase flicksick_india
+
+# To start mongodb server
+  	sudo service mongod start
+	sudo service mongod status
+	Note: if find any connection timeout / connection refuse erro check binding in /etc/mongod.conf file make it to 0.0.0.0 host
   
   
   
