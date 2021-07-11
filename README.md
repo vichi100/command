@@ -89,6 +89,7 @@ Redirect users to iTunes app store or google play store:
 # Python
 	
 	run python file: python3 stream.py
+	pip3 install omdb
   
   # process.json
   {
