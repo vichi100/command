@@ -81,7 +81,10 @@ Redirect users to iTunes app store or google play store:
 	Note: if find any connection timeout / connection refuse erro check binding in /etc/mongod.conf file make it to 0.0.0.0 host
   
   
-  
+# Mongo db util query
+	show dbs
+	use <db name>
+	show collections
   
   
   
