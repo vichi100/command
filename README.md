@@ -73,7 +73,7 @@ Redirect users to iTunes app store or google play store:
   # mongo
 	adminvichi vichi123
 	flicksick_india -> flicksick, flicksick123
-	mongo -u flicksick -p flicksick123 --authenticationDatabase flicksick_india
+	Command to connect shell : mongo -u flicksick -p flicksick123 --authenticationDatabase flicksick_india
 
 # To start mongodb server
   	sudo service mongod start
