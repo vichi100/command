@@ -102,7 +102,7 @@ Redirect users to iTunes app store or google play store:
 	4) Run utilx.js: node utilx.js, this will create utils collection.
 	5) Run ottProvider.js: node ottProvider.js, this will setup ott provider in utils collection
 	6) Run trending.js: node trending.js, for diffrent pages, this will print id of trending movies.
-	7) from step 6 copy trending movies ids to trending.py and run trending.py: python3 trending.py, this will create tredings collection.
+	7) from step 6 copy trending movies ids to trending.py and run trending.py: python3 trending.py, this will create tmdb_trendings collection.
 	8) Go to flicksickapp.com/trending and categories trending movies to friend / trending, this will create homedatas collection.
   # process.json
   {
