@@ -104,7 +104,14 @@ Redirect users to iTunes app store or google play store:
 	6) Run trending.js: node trending.js, for diffrent pages, this will print id of trending movies.
 	7) from step 6 copy trending movies ids to trending.py and run trending.py: python3 trending.py, this will create tmdb_trendings collection.
 	8) Go to flicksickapp.com/trending and categories trending movies to friend / trending, this will create homedatas collection.
-  # process.json
+  
+	
+# App Over-the-Air
+	https://www.youtube.com/watch?v=Si909la3rLk
+	https://medium.com/@vinod8812/integrate-codepush-with-react-native-for-over-the-air-app-update-bb200683a173
+	https://appcenter.ms/
+	
+# process.json
   {
   "apps": [
     {
