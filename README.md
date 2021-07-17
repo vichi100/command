@@ -110,6 +110,7 @@ Redirect users to iTunes app store or google play store:
 	https://www.youtube.com/watch?v=Si909la3rLk
 	https://medium.com/@vinod8812/integrate-codepush-with-react-native-for-over-the-air-app-update-bb200683a173
 	https://appcenter.ms/
+	https://pagepro.co/blog/react-native-over-the-air-updates/
 	
 # process.json
   {
