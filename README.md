@@ -112,6 +112,12 @@ Redirect users to iTunes app store or google play store:
 	https://appcenter.ms/
 	https://pagepro.co/blog/react-native-over-the-air-updates/
 	
+	
+# One link for AppStore and PlayStore
+	https://www.onelink.to/#editor
+	
+	
+	
 # process.json
   {
   "apps": [
