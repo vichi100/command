@@ -1,5 +1,7 @@
 # command
 
+https://promovieblogger.com/posting-photos-and-videos-permission-copyright-issues-infringement-and-liability/
+
 bash-3.2$ ssh root@209.145.57.26
 
 # node js / expo / yarn  env setup on mac
