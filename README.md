@@ -119,7 +119,8 @@ Redirect users to iTunes app store or google play store:
 	https://www.onelink.to/#editor
 	
 # MongoDB Geospatial
-	"All documents must store location data in the same order. If you use latitude and longitude as your coordinate system, always store longitude first. MongoDB’s 2d spherical index operators only recognize [ longitude, latitude] ordering."
+	"All documents must store location data in the same order. If you use latitude and longitude as your coordinate system, 
+	always store longitude first. MongoDB’s 2d spherical index operators only recognize [ longitude, latitude] ordering."
 	
 # process.json
   {
