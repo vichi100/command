@@ -164,3 +164,15 @@ Redirect users to iTunes app store or google play store:
         proxy_cache_bypass $http_upgrade;
     }
 }
+	
+	
+# Access image in nodejs server
+	1) give directory name which is constant for all in below
+	app.use(express.static("/Users/vichirajan/Documents/github/realtoproject/images"));
+	2) store ur image in db which dynamic dir path in db.
+	3) fect image like below url
+	http://192.168.1.104:7000/30/98/0/7KeyZinEX5fPoShYYsSyn_1_1629967844204.jpeg
+	4) your image complete path will be 
+	/Users/vichirajan/Documents/github/realtoproject/images/30/98/0/7KeyZinEX5fPoShYYsSyn_1_1629967844204.jpeg
+	
+	https://stackoverflow.com/questions/27046456/how-to-fetch-images-from-node-js-servers-folder-in-url
