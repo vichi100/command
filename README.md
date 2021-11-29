@@ -187,3 +187,11 @@ Redirect users to iTunes app store or google play store:
 # Realto App
 	
 	db.createUser({ user: "realto", pwd: "realto123", roles: [{ role: "dbOwner", db: "realtodb" }] })
+	use realtodb
+	db.auth("realto", "realto123")
+	show collections
+	
+	
+	mongodb://realto:realto123@66.94.118.23:27017/realtodb
+	
+	
