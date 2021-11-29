@@ -181,3 +181,9 @@ Redirect users to iTunes app store or google play store:
 	/Users/vichirajan/Documents/github/realtoproject/images/30/98/0/7KeyZinEX5fPoShYYsSyn_1_1629967844204.jpeg
 	
 	https://stackoverflow.com/questions/27046456/how-to-fetch-images-from-node-js-servers-folder-in-url
+	
+	
+	
+# Realto App
+	
+	db.createUser({ user: "realto", pwd: "realto123", roles: [{ role: "dbOwner", db: "realtodb" }] })
