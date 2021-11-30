@@ -186,6 +186,8 @@ Redirect users to iTunes app store or google play store:
 	
 # Realto App
 	
+	ssh root@66.94.118.23        of2bdG26Exgh8wT
+	
 	db.createUser({ user: "realto", pwd: "realto123", roles: [{ role: "dbOwner", db: "realtodb" }] })
 	use realtodb
 	db.auth("realto", "realto123")
