@@ -193,6 +193,8 @@ Redirect users to iTunes app store or google play store:
 	db.auth("realto", "realto123")
 	show collections
 	
+	mongo -u realto -p realto123 --authenticationDatabase realtodb
+	
 	
 	mongodb://realto:realto123@66.94.118.23:27017/realtodb
 	
