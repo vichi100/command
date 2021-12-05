@@ -28,6 +28,9 @@ $ pm2 stop all
 $ pm2 logs (Show log stream)
 $ pm2 flush (Clear logs)
 $ pm2 monit
+$pm2 log
+$pm2 log --lines 500
+
 
 # To start react js web app
 $ pm2 start npm -- start
