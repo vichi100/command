@@ -167,6 +167,11 @@ Redirect users to iTunes app store or google play store:
 }
 	
 	
+#Restart the Nginx server after saving the file
+	sudo service nginx restart
+	sudo service nginx reload
+	
+	
 # Access image in nodejs server
 	1) give directory name which is constant for all in below
 	app.use(express.static("/Users/vichirajan/Documents/github/realtoproject/images"));
