@@ -171,6 +171,8 @@ Redirect users to iTunes app store or google play store:
 	sudo service nginx restart
 	sudo service nginx reload
 	
+	sudo tail -30 /var/log/nginx/error.log
+	
 	
 # Access image in nodejs server
 	1) give directory name which is constant for all in below
