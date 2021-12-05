@@ -173,6 +173,7 @@ Redirect users to iTunes app store or google play store:
 # Restart the Nginx server after saving the file
 	sudo service nginx restart
 	sudo service nginx reload
+	sudo service nginx status
 	
 	sudo tail -30 /var/log/nginx/error.log
 	
