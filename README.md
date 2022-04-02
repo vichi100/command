@@ -151,6 +151,7 @@ Redirect users to iTunes app store or google play store:
   ]
 }
   
+pm2 start process.json
   
 # ngix config
 	
